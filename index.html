@@ -2,62 +2,158 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaurav Yadav</title>
+    <title>Gaurav</title>
+    
+    <!-- stylesheet -->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
-    <div class="top-container">
-        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
-        <h1>I'm Gaurav</h1>
-        <h2 class="designation">A <span class="web"> Web</span> Developer</h2>
-        <img  class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-        <img src="images/mountain.png" alt="mountain-img">
-    </div>
-    <div class="middle-container">
-        <div class="profile">
-          <img src="images/IMG_20220904_125441-modified.png" alt="my profile picture" width="200px" height="200px">
-          <h2>Hello.</h2>
-          <p class="about">I am student at Rajkiya Engineering Collage,Azamgarh.I am currently persuing B.Tech from Dr.APJ Abdul Kalam Technical University .
-            My department is civil engineering.</p>
+    <header id="header">
+        <nav>
+            <div class="logo"><span>G</span>aurav</div>
+            <input type="checkbox" name="" id="check">
+            <label for="check" class="icons">
+                <i class="bx bx-menu" id="menu-icon"></i>
+                <i class="bx bx-x" id="close-icon"></i>
+            </label>
+            <div class="navbar">
+                <ul>
+                    <li><a class="active" href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>  
+    </header>
+    <section id="hero">
+        <div class="hero-container">
+            <p>Hello,</p><h2>I am Gaurav Yadav</h2><h3>Full-stack Web Developer</h3><p>A passionate full-stack web developer. I craft digital experiences that blend creativity and functionality to bring your ideas to life. Let's turn your vision into reality together.</p>
+            <button class="btn cv" download>Download CV</button>
+            <div class="hero-links">
+                <a href="https://www.linkedin.com/in/gaurav-yadav-26aa63241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://x.com/GauravY08591668?t=bkHUWUzKm5eBXbhuQtHang&s=08"><i class="bx bxl-twitter"></i></a>
+                <a href="https://github.com/GauravYadav99?tab=repositories"><i class="bx bxl-github"></i></a>
+            </div>
         </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="dhoni-img" src="https://gumlet.assettype.com/swarajya%2F2020-08%2Fbbab0bff-d042-4a7e-bd93-3330f0b116ed%2FEfd9DtmUYAIaAyx.jpg?q=75&amp;auto=format%2Ccompress&amp;w=1200" jsaction="load:XAeZkd;" jsname="HiaYvf"  alt="India's World Cup Winning Captain M S Dhoni Announces Retirement From  International Cricket" data-noaft="1">
-            <h3>Cricket</h3>
-            <p>I started playing cricket since i was 10 years old because i loved this game.I have gained a wealth experience in batting and bowling.I like hitting big sixes.My favourite player is M.S Dhoni</p>
-          </div>
-          <div class="skill-row">
-            <img class="code-img"   data-ils="4" jsaction="rcuQ6b:trigger.M8vzZb;" jsname="Q4LuWd" alt="1,471,699 Coding Images, Stock Photos &amp; Vectors | Shutterstock" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj_HT4-iFBc-ABb6vvQQxZZOlxGRDhm9rLRQ&amp;usqp=CAU">
-            <h3>Coding</h3>
-            <p>Coding is one of the few skills that i am passionate about.Coding for me is like a game which i can enjoy entire day.</p>
-          </div>
+    </section>
+    <section id="about">
+        <h2 class="section-heading">About Me</h2>
+        <div class="container about-container">
+            <div class="about-img"><img src="images/menswear1.jpg" alt=""></div>
+            <div class="about-text">
+                Welcome to my portfolio! I'm Gaurav Yadav, a versatile web developer who thrives on turning ideas into interactive digital experiences. With a knack for both frontend and full-stack development, I bring creativity and functionality to every project.
+                <br>
+                <br>
+                I'm not just a developer; I'm also passionate about UI/UX design, ensuring that the websites I create are not only efficient but also visually appealing and user-friendly.
+                <br>
+                <br>
+                Currently, I'm pursuing a BTech degree from Dr. A.P.J Abdul Kalam University, where my passion for computer science is nurtured. My journey doesn't stop at the frontend – I'm dedicated to broadening my knowledge by diving into backend technologies, always seeking to improve and expand my skill set.
+                <br>
+                <br>
+                With an unwavering commitment to innovation and a thirst for knowledge, I'm ready to collaborate on exciting projects that push boundaries and create memorable online experiences. Let's turn your digital dreams into reality!
+            </div>
         </div>
-        <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3 class="code_head">If you love coding as much i do</h3>
-          <p class="contact_message">Love coding as much as i do?Let's talk about how awsome coding really is</p>
-          <a class="btn" href="mailto:gauravyaduvanshi994@gmail.com">CONTACT ME</a>
+    </section>
+    <section id="skills">
+        <h2 class="section-heading">Skills</h2>
+        <h3>Frontend</h3>
+        <div class="container card-container">
+            <div class="skill-card"><img src="images/icons8-html5-480.png" alt=""></div>
+            <div class="skill-card"><img src="images/icons8-css-480.png" alt=""></div>
+            <div class="skill-card"><img src="images/icons8-javascript-480.png" alt=""></div>
+            <div class="skill-card"><img src="images/icons8-bootstrap-480.png" alt=""></div>
+            <div class="skill-card"><img src="images/reactjs-image.png" alt=""></div>
+            <div class="skill-card"><img src="images/jquery-tutorial.jpg" alt=""></div>
         </div>
-      </div>
-      
-      
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://twitter.com/">Twitter</a>
-        <a class="footer-link" href="https://gauravyadav99.github.io/cv/">Website</a>
-        <p class="copyright">© Gaurav Yadav.</p>
-      </div>
-      
-  
+        <h3 class="backend-text">Backend</h3>
+        <div class="container card-container">
+            <div class="skill-card"><img src="images/icons8-nodejs-480.png" alt=""></div>
+            <div class="skill-card"><img src="images/icons8-express-js-120.png" alt=""></div>
+            <div class="skill-card"><img src="images/ejs-image.gif" alt=""></div>
+            <div class="skill-card"><img src="images/61_sql-database-generic.90b41636a8.png" alt=""></div>
+            <div class="skill-card"><img src="images/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png" alt=""></div>
+            <div class="skill-card"><img src="images/mongoose.jpg" alt=""></div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h2 class="section-heading">Projects</h2>
+        <div class="slide-container">
+            <div class="container slider">
+                <div class="slide">
+                    <img src="images/image5.jpg" alt="">
+                    <div class="layer">
+                        <h3>Jaiswal Vastralaya</h3>
+                        <p>A website for fashion store named jaiswal vastralaya.</p>
+                        <a href=""><i class="bx bxl-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2 class="section-heading">Contact</h2>
+        <div class="container contact-container">
+            <div class="contact-me">
+                <h3>Contact Me</h3>
+                <div class="contact-text"><i class='bx bxs-phone'></i><p>+91 8400077906</p></div>
+                <div class="contact-text"><i class='bx bx-envelope'></i><p>gaurav.1432003@gmail.com</p></div>
+                <div class="contact-text"><i class='bx bxl-telegram'></i><p>Gaurav_yadav99</p></div>
+                <div class="contact-text"><i class='bx bxl-linkedin'></i><p>Gaurav Yadav</p></div>
+                <div class="contact-text"><i class='bx bxl-instagram-alt'></i><p>gaurav_012347</p></div>
+                <div class="contact-text"><i class='bx bxl-twitter'></i><p>GauravY08591668</p></div>
+            </div>
+            <div class="contact-form">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name">
+                    <input type="email" name="Email" id="" placeholder="Email">
+                    <textarea name="Message" id="" placeholder="Your Message" rows="6"></textarea>
+                    <button type="submit" class="btn cv btn-sub">Submit</button>
+                </form>
+                <div id="confirm-msg"></div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><span>©</span> Gaurav Yadav</p>
+        </div>
+    </section>
 </body>
+
+<script>
+    const navbarLinks = document.querySelectorAll(".navbar a");
+    const checkbox = document.getElementById("check")
+
+    navbarLinks.forEach((navLink,index) => {
+        navLink.addEventListener("click", () => {
+            checkbox.checked = false
+        })
+    })
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz47WxhZixMG7T7DWlzlH3D-yi_5g1-fsS7Yt7gFnKPNvhKS94ewkG7wjj285txz7bK/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const confirmMsg = document.getElementById("confirm-msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            confirmMsg.innerHTML = "Sent successfully"
+            setTimeout(() => {
+                confirmMsg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 </html>
+
+<!-- https://script.google.com/macros/s/AKfycbz47WxhZixMG7T7DWlzlH3D-yi_5g1-fsS7Yt7gFnKPNvhKS94ewkG7wjj285txz7bK/exec -->
