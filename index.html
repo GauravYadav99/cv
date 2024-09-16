@@ -3,124 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gaurav</title>
-    
-    <!-- stylesheet -->
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="CSS/styles.css">
-
-
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Gaurav</title>
 </head>
 <body>
-    <header id="header">
-        <nav>
-            <div class="logo"><span>G</span>aurav</div>
-            <input type="checkbox" name="" id="check">
-            <label for="check" class="icons">
-                <i class="bx bx-menu" id="menu-icon"></i>
-                <i class="bx bx-x" id="close-icon"></i>
-            </label>
-            <div class="navbar">
-                <ul>
-                    <li><a class="active" href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+    <div class="h-svh min-h-[640px] bg-cover bg-center bg-no-repeat flex flex-col" style="background-image: url(images/20008471_6229869.jpg);">
+        <header id="header" class="w-full">
+            <nav class="flex items-center justify-between py-1 sm:py-2 md:py-5">
+                <div class="logo px-[7%] lg:px-10 xl:px-20 text-[2rem] sm:text-[2.5rem] text-white md:text-white tracking-wide"><span class="text-[2.25rem] sm:text-[2.75rem] text-[#145374] md:text-[#FCDAB7]">G</span>aurav</div>
+                <input type="checkbox" name="" id="check">
+                <label for="check" class="icons pt-[8px] sm:pt-[4px] text-[2rem] sm:text-[2.25rem]">
+                    <i class="bx bx-menu text-[#145374]" id="menu-icon"></i>
+                    <i class="bx bx-x text-[#FCDAB7] md:mb-[2.125rem]" id="close-icon"></i>
+                </label>
+                <div class="navbar h-full pt-[4.3rem] sm:pt-[5.125rem] lg:pt-[0] lg:px-10 xl:px-20">
+                    <ul class="flex mt-2 gap-x-6 text-[#133B5C] text-[18px] font-medium">
+                        <li><a class="px-3 py-2 active" href="#header">Home</a></li>
+                        <li><a class="px-3 py-2" href="#about">About</a></li>
+                        <li><a class="px-3 py-2" href="#skills">Skills</a></li>
+                        <li><a class="px-3 py-2" href="#projects">Projects</a></li>
+                        <li><a class="px-3 py-2" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>  
+        </header>
+        <section id="hero" class="h-full flex items-center px-[10%] sm:px-[15%]">
+            <div class="hero-container text-white">
+                <p class="min-[2560px]:text-[24px]">Hello,</p><h2 class="text-4xl 2xl:text-8xl font-medium min-[2560px]:my-2">I am Gaurav Yadav</h2><h3 class="text-2xl 2xl:text-4xl font-medium mb-[0.3rem] min-[2560px]:mb-[0.6rem] text-[#FCDAB7] ">Full-stack Web Developer</h3><p class="min-[2560px]:text-[24px]">A passionate full-stack web developer. I craft digital experiences that blend creativity and functionality to bring your ideas to life. Let's turn your vision into reality together.</p>
+                <a href="files/GAURAV YADAV1.pdf" download="resume.pdf"><button class="cv bg-transparent border-[2px] border-[#FCDAB7] text-[#FCDAB7] min-[2560px]:text-[24px] px-[12px] py-[8px] min-[2560px]:px-[16px] min-[2560px]:py-[12px] my-[1rem] min-[2560px]:my-6 rounded-[50px]">Download CV</button></a>
+                <div class="hero-links text-[2rem] text-[#FCDAB7] min-[2560px]:text-[2.5rem]">
+                    <a class="hover:text-white" href="https://www.linkedin.com/in/gaurav-yadav-26aa63241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bx bxl-linkedin"></i></a>
+                    <a class="hover:text-white" href="https://x.com/GauravY08591668?t=bkHUWUzKm5eBXbhuQtHang&s=08"><i class="bx bxl-twitter"></i></a>
+                    <a class="hover:text-white" href="https://github.com/GauravYadav99?tab=repositories"><i class="bx bxl-github"></i></a>
+                </div>
             </div>
-        </nav>  
-    </header>
-    <section id="hero">
-        <div class="hero-container">
-            <p>Hello,</p><h2>I am Gaurav Yadav</h2><h3>Full-stack Web Developer</h3><p>A passionate full-stack web developer. I craft digital experiences that blend creativity and functionality to bring your ideas to life. Let's turn your vision into reality together.</p>
-            <button class="btn cv" download>Download CV</button>
-            <div class="hero-links">
-                <a href="https://www.linkedin.com/in/gaurav-yadav-26aa63241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bx bxl-linkedin"></i></a>
-                <a href="https://x.com/GauravY08591668?t=bkHUWUzKm5eBXbhuQtHang&s=08"><i class="bx bxl-twitter"></i></a>
-                <a href="https://github.com/GauravYadav99?tab=repositories"><i class="bx bxl-github"></i></a>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <section id="about">
-        <h2 class="section-heading">About Me</h2>
-        <div class="container about-container">
-            <div class="about-img"><img src="images/IMG_20230519_125437.jpg" alt=""></div>
-            <div class="about-text">
-                Welcome to my portfolio! I'm Gaurav Yadav, a versatile web developer who thrives on turning ideas into interactive digital experiences. With a knack for both frontend and full-stack development, I bring creativity and functionality to every project.
+        <div class="bg-[#040D12] text-white w-full bg-gradient-to-r from-[#0F0F0F] to-[#021526]">
+            <h1 class="text-[#FCDAB7] text-2xl sm:text-3xl md:text-[2rem] xl:text-4xl text-center p-6 sm:p-8 md:p-10 lg:p-12 underline underline-offset-4">About Me</h1>
+            <div class="flex justify-between w-[80%] sm:w-[70%] xl:w-[60%] min-[2560px]:w-[50%] m-auto pt-4 sm:pt-4 md:pt-5 lg:pt-6">
+                <div class="basis-[45%] lg:basis-[40%] xl:basis-[35%] h-40 sm:h-52 md:h-64">
+                    <img class="rounded-[25px] w-full h-full object-cover object-center border-[2px]" src="images/IMG_20230519_12543.jpg" alt="">
+                </div>
+                <div class="basis-[45%] flex flex-col justify-around">
+                    <div class="border-[2px] rounded-[20px] p-2 sm:p-3 md:p-4 sm:text-[16px] md:text-[18px] xl:text-[20px] text-center">
+                        <h3 class="">Experience</h3>
+                        <p class="text-[12px] sm:text-[14px] md:text-[16px]">1+ years</p>
+                    </div>
+                    <div class="border-[2px] rounded-[20px] p-2 sm:p-3 md:p-4 sm:text-[16px] md:text-[18px] xl:text-[20px] text-center">
+                        <h3 class="">Education</h3>
+                        <p class="text-[12px] sm:text-[14px] md:text-[16px]">B.tech Bachelors Degree</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[80%] sm:w-[70%] xl:w-[60%] min-[2560px]:w-[50%] m-auto pt-6 sm:pt-8 md:pt-10 lg:pt-12  text-[14px] md:text-[16px] pb-6 sm:pb-10 xl:pb-12">
+                <p class="xl:leading-[1.75]">Welcome to my portfolio! I'm Gaurav Yadav, a versatile web developer who thrives on turning ideas into interactive digital experiences. With a knack for both frontend and full-stack development, I bring creativity and functionality to every project.</p>
                 <br>
+                <p class="xl:leading-[1.75]">I'm not just a developer; I'm also passionate about UI/UX design, ensuring that the websites I create are not only efficient but also visually appealing and user-friendly.</p>
                 <br>
-                I'm not just a developer; I'm also passionate about UI/UX design, ensuring that the websites I create are not only efficient but also visually appealing and user-friendly.
-                <br>
-                <br>
-                Currently, I'm pursuing a BTech degree from Dr. A.P.J Abdul Kalam University, where my passion for computer science is nurtured. My journey doesn't stop at the frontend – I'm dedicated to broadening my knowledge by diving into backend technologies, always seeking to improve and expand my skill set.
-                <br>
-                <br>
-                With an unwavering commitment to innovation and a thirst for knowledge, I'm ready to collaborate on exciting projects that push boundaries and create memorable online experiences. Let's turn your digital dreams into reality!
+                <p class="xl:leading-[1.75] hidden md:block">Currently, I'm pursuing a BTech degree from Dr. A.P.J Abdul Kalam University, where my passion for computer science is nurtured. My journey doesn't stop at the frontend – I'm dedicated to broadening my knowledge by diving into backend technologies, always seeking to improve and expand my skill set.</p>
+                <br class="hidden md:block">
+                <p class="xl:leading-[1.75]">With an unwavering commitment to innovation and a thirst for knowledge, I'm ready to collaborate on exciting projects that push boundaries and create memorable online experiences.</p>
             </div>
         </div>
     </section>
     <section id="skills">
-        <h2 class="section-heading">Skills</h2>
-        <h3>Frontend</h3>
-        <div class="container card-container">
-            <div class="skill-card"><img src="images/icons8-html5-480.png" alt=""></div>
-            <div class="skill-card"><img src="images/icons8-css-480.png" alt=""></div>
-            <div class="skill-card"><img src="images/icons8-javascript-480.png" alt=""></div>
-            <div class="skill-card"><img src="images/icons8-bootstrap-480.png" alt=""></div>
-            <div class="skill-card"><img src="images/reactjs-image.png" alt=""></div>
-            <div class="skill-card"><img src="images/jquery-tutorial.jpg" alt=""></div>
-        </div>
-        <h3 class="backend-text">Backend</h3>
-        <div class="container card-container">
-            <div class="skill-card"><img src="images/icons8-nodejs-480.png" alt=""></div>
-            <div class="skill-card"><img src="images/icons8-express-js-120.png" alt=""></div>
-            <div class="skill-card"><img src="images/ejs-image.gif" alt=""></div>
-            <div class="skill-card"><img src="images/61_sql-database-generic.90b41636a8.png" alt=""></div>
-            <div class="skill-card"><img src="images/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png" alt=""></div>
-            <div class="skill-card"><img src="images/mongoose.jpg" alt=""></div>
-        </div>
-    </section>
-    <section id="portfolio">
-        <h2 class="section-heading">Projects</h2>
-        <div class="slide-container">
-            <div class="container slider">
-                <div class="slide">
-                    <img src="images/image5.jpg" alt="">
-                    <div class="layer">
-                        <h3>Jaiswal Vastralaya</h3>
-                        <p>A website for fashion store named jaiswal vastralaya.</p>
-                        <a href="https://jaiswalvastralaya.github.io/index.html"><i class="bx bxl-github"></i></a>
+        <div class="bg-[#040D12] text-white w-full bg-gradient-to-r from-[#0F0F0F] to-[#021526]">
+            <h1 class="text-[#FCDAB7] text-2xl sm:text-3xl md:text-[2rem] xl:text-4xl text-center p-6 sm:p-8 md:p-10 lg:p-12 underline underline-offset-4">Skills</h1>
+            <div class="w-[80%] sm:w-[70%] xl:w-[60%] min-[2560px]:w-[50%] m-auto flex flex-col md:flex-row  justify-between gap-6 pb-6 sm:pb-8 md:pb-10 lg:pb-12 pt-4 sm:pt-4 md:pt-5 lg:pt-6">
+                <div class="px-4 rounded-[20px]">
+                    <h2 class="text-[18px] sm:text-[20px] xl:text-[24px] text-[#FCDAB7] mb-3 underline underline-offset-4">Frontend Development</h2>    
+                    <div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><p>HTML</p></div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><P>CSS</P></div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><P>JavaScript</P></div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><p>ReactJS</p></div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><p>Tailwind CSS</p></div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><p>Bootstrap</p></div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><p>jQuery</p></div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><p>Redux</p></div>
+                    </div>
+                </div>
+                <div class="px-4 rounded-[20px]">            
+                    <h2 class="text-[18px] sm:text-[20px] xl:text-[24px] text-[#FCDAB7] mb-3 underline underline-offset-4">Backend Development</h2>    
+                    <div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><p>Node.js</p></div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><P>Express.js</P></div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><P>Next.js</P></div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><p>REST API</p></div>
+                    </div>
+                </div>
+                <div class="px-4 rounded-[20px]">
+                    <h2 class="text-[18px] sm:text-[20px] xl:text-[24px] text-[#FCDAB7] mb-3 underline underline-offset-4">Database</h2>    
+                    <div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><p>SQL</p></div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><P>MongoDB</P></div>
+                        <div class="flex items-center text-[14px] md:text-[16px] gap-1 lg:gap-2 py-1"><i class='bx bxs-circle'></i><P>PostgreSQL</P></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="contact">
-        <h2 class="section-heading">Contact</h2>
-        <div class="container contact-container">
-            <div class="contact-me">
-                <h3>Contact Me</h3>
-                <div class="contact-text"><i class='bx bxs-phone'></i><p>+91 8400077906</p></div>
-                <div class="contact-text"><i class='bx bx-envelope'></i><p>gaurav.1432003@gmail.com</p></div>
-                <div class="contact-text"><i class='bx bxl-telegram'></i><p>Gaurav_yadav99</p></div>
-                <div class="contact-text"><i class='bx bxl-linkedin'></i><p>Gaurav Yadav</p></div>
-                <div class="contact-text"><i class='bx bxl-instagram-alt'></i><p>gaurav_012347</p></div>
-                <div class="contact-text"><i class='bx bxl-twitter'></i><p>GauravY08591668</p></div>
-            </div>
-            <div class="contact-form">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name">
-                    <input type="email" name="Email" id="" placeholder="Email">
-                    <textarea name="Message" id="" placeholder="Your Message" rows="6"></textarea>
-                    <button type="submit" class="btn cv btn-sub">Submit</button>
-                </form>
-                <div id="confirm-msg"></div>
+    <section id="projects">
+        <div class="bg-[#040D12] text-white w-full bg-gradient-to-r from-[#0F0F0F] to-[#021526]">
+            <h1 class="text-[#FCDAB7] text-2xl sm:text-3xl md:text-[2rem] xl:text-4xl text-center p-6 sm:p-8 md:p-10 lg:p-12 underline underline-offset-4">Projects</h1>
+            <div class="w-[80%] sm:w-[65%] md:w-[60%] lg:w-[55%] xl:w-[50%] min-[2560px]:w-[40%] m-auto pb-6 sm:pb-8 md:pb-10 lg:pb-12 pt-4 sm:pt-4 md:pt-5 lg:pt-6">
+                <div class="flex justify-between items-center text-white hover:text-[#FCDAB7] border-[2px] border-[#FFFFFF] hover:border-[#FCDAB7] py-2 md:py-3 px-3 md:px-4 mb-6 sm:mb-10 xl:mb-12 rounded-[10px]">
+                    <a href="https://jaiswalvastralaya.github.io/index.html"><h2 class="text-[20px] md:text-[24px] xl:text-[28px] hover:underline underline-offset-4">Jaiswal Vastralaya</h2></a>
+                    <a href="https://jaiswalvastralaya.github.io/index.html"><i class='bx bx-link-external text-2xl xl:text-3xl hover:text-white'></i></a>
+                </div>
+                <div class="flex justify-between items-center text-white hover:text-[#FCDAB7] border-[2px] border-[#FFFFFF] hover:border-[#FCDAB7] py-2 md:py-3 px-3 md:px-4 my-6 sm:my-10 xl:my-12 rounded-[10px]">
+                    <a href=""><h2 class="text-[20px] md:text-[24px] xl:text-[28px] hover:underline underline-offset-4">Scrabblers Club</h2></a>
+                    <a href=""><i class='bx bx-link-external text-2xl xl:text-3xl hover:text-white'></i></a>
+                </div>
+                <div class="flex justify-between items-center text-white hover:text-[#FCDAB7] border-[2px] border-[#FFFFFF] hover:border-[#FCDAB7] py-2 md:py-3 px-3 md:px-4 mt-6 sm:mt-10 xl:mt-12 rounded-[10px]">
+                    <a href=""><h2 class="text-[20px] md:text-[24px] xl:text-[28px] hover:underline underline-offset-4">Sheetal Enclave</h2></a>
+                    <a href=""><i class='bx bx-link-external text-2xl xl:text-3xl hover:text-white'></i></a>
+                </div>
             </div>
         </div>
-        <div class="copyright">
-            <p><span>©</span> Gaurav Yadav</p>
+    </section>
+    <section id="contact">
+        <div class="bg-[#040D12] text-white w-full bg-gradient-to-r from-[#0F0F0F] to-[#021526]">
+            <h1 class="text-[#FCDAB7] text-2xl sm:text-3xl md:text-[2rem] xl:text-4xl text-center p-6 sm:p-8 md:p-10 lg:p-12 underline underline-offset-4">Contact Me</h1>
+            <div class="w-[80%] sm:max-w-[65%] md:max-w-[60%] lg:max-w-[55%] xl:max-w-[50%] min-[2560px]:w-[40%] mx-auto pb-6 sm:pb-8 md:pb-10 lg:pb-12 pt-4 sm:pt-4 md:pt-5 lg:pt-6">
+                <div class="contact-form">
+                    <form name="submit-to-google-sheet" autocomplete="off">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" id="" placeholder="Email" required>
+                        <textarea name="Message" id="" placeholder="Your Message" rows="6" class=" lg:h-[240px] min-[2560px]:h-[320px]" required></textarea>
+                        <button type="submit" class="btn-sub">Submit</button>
+                    </form>
+                    <div id="confirm-msg"></div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><span>©</span> Gaurav Yadav</p>
+            </div>
         </div>
     </section>
 </body>
@@ -153,7 +175,6 @@
         })
         .catch(error => console.error('Error!', error.message))
     })
-  </script>
-</html>
+</script>
 
-<!-- https://script.google.com/macros/s/AKfycbz47WxhZixMG7T7DWlzlH3D-yi_5g1-fsS7Yt7gFnKPNvhKS94ewkG7wjj285txz7bK/exec -->
+</html>
